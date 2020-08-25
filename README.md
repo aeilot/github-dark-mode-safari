@@ -1,5 +1,7 @@
 # GitHub Dark Mode for Safari
 
+![GitHub](https://img.shields.io/github/license/aeilot/github-dark-mode-safari) ![GitHub Releases](https://img.shields.io/github/downloads/aeilot/github-dark-mode-safari/latest/total)
+
 The Dark Mode for GitHub.com, now for Safari!
 
 **This is the Safari port of [Mr Will's Project](https://github.com/MrWillCom/github-dark-mode).**
