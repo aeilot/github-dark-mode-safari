@@ -6,6 +6,16 @@ The Dark Mode for GitHub.com, now for Safari!
 
 **This is the Safari port of [Mr Will's Project](https://github.com/MrWillCom/github-dark-mode).**
 
+## Preview (Screenshots are from the original project)
+
+**Before:**
+
+![The original light theme](./screenshots/screenshot-0.png)
+
+**After:**
+
+![When dark mode is on](./screenshots/screenshot-1.png)
+
 ## Installation
 
 You can get the DMG file from the [release page](https://github.com/aeilot/github-dark-mode-safari/releases). Downloading from Mac APP Store is currently not available.
