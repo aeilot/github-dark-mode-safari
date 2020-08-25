@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>GitHubDarkMode Extension</string>
+	<string>GitHub Dark Mode</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>0.1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSMinimumSystemVersion</key>
@@ -46,7 +46,7 @@
 		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2020 Book Blog Studio. All rights reserved. Safari Edition Made by Louis Aeilot</string>
+	<string>MIT Lisenced. Copyright © 2020 Mr. Will. All rights reserved. Safari Edition Made by Louis Aeilot.</string>
 	<key>NSHumanReadableDescription</key>
 	<string>The Dark Mode for GitHub.com.</string>
 </dict>
