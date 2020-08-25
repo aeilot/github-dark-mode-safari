@@ -1,0 +1,39 @@
+
+/* Class = "NSMenuItem"; title = "GitHubDarkMode"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "GitHub 黑暗模式";
+
+/* Class = "NSMenuItem"; title = "Quit GitHubDarkMode"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "退出 GitHub 黑暗模式";
+
+/* Class = "NSMenuItem"; title = "About GitHubDarkMode"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "About GitHub 黑暗模式";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
+"F2S-fz-NVQ.title" = "帮助";
+
+/* Class = "NSMenuItem"; title = "GitHubDarkMode Help"; ObjectID = "FKE-Sm-Kum"; */
+"FKE-Sm-Kum.title" = "GitHub 黑暗模式 Help";
+
+/* Class = "NSWindow"; title = "GitHub Dark Mode"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "GitHub 黑暗模式";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "全部显示";
+
+/* Class = "NSMenuItem"; title = "Hide GitHubDarkMode"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Hide GitHub 黑暗模式";
+
+/* Class = "NSButtonCell"; alternateTitle = "Install"; ObjectID = "Srx-0j-A4D"; */
+"Srx-0j-A4D.alternateTitle" = "安装";
+
+/* Class = "NSButtonCell"; title = "Open in Safari Extensions Preferences…"; ObjectID = "Srx-0j-A4D"; */
+"Srx-0j-A4D.title" = "在 Safari 拓展设置中打开";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "隐藏其他";
+
+/* Class = "NSMenu"; title = "GitHubDarkMode"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "GitHub 黑暗模式";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd"; */
+"wpr-3q-Mcd.title" = "帮助";

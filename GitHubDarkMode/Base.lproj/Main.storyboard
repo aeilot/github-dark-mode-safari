@@ -11,18 +11,18 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="GitHubDarkMode" id="1Xt-HY-uBw">
+                            <menuItem title="GitHub Dark Mode" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="GitHubDarkMode" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="GitHub Dark Mode" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About GitHubDarkMode" id="5kV-Vb-QxS">
+                                        <menuItem title="About GitHub Dark Mode" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
-                                        <menuItem title="Hide GitHubDarkMode" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide GitHub Dark Mode" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -40,7 +40,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit GitHubDarkMode" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit GitHub Dark Mode" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -52,7 +52,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="GitHubDarkMode Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="GitHub Dark Mode Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                             </connections>
@@ -110,8 +110,8 @@
                                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" image="AppIcon" id="Hhb-TZ-Dhg"/>
                                     </imageView>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="EB0-ac-UZR">
-                                        <rect key="frame" x="206" y="63" width="68" height="16"/>
-                                        <textFieldCell key="cell" lineBreakMode="clipping" title="App Name" id="S7v-7o-3vW">
+                                        <rect key="frame" x="182" y="63" width="117" height="16"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="GitHub Dark Mode" id="S7v-7o-3vW">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
