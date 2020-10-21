@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,10 +15,7 @@
 		BF4F7E0324F4C33E009EF13B /* GitHubDarkMode Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BF4F7E0224F4C33E009EF13B /* GitHubDarkMode Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BF4F7E0824F4C33E009EF13B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4F7E0724F4C33E009EF13B /* Cocoa.framework */; };
 		BF4F7E0B24F4C33E009EF13B /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F7E0A24F4C33E009EF13B /* SafariExtensionHandler.swift */; };
-		BF4F7E0D24F4C33E009EF13B /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F7E0C24F4C33E009EF13B /* SafariExtensionViewController.swift */; };
-		BF4F7E1024F4C33E009EF13B /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF4F7E0E24F4C33E009EF13B /* SafariExtensionViewController.xib */; };
 		BF4F7E1324F4C33E009EF13B /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = BF4F7E1224F4C33E009EF13B /* script.js */; };
-		BF4F7E1524F4C33E009EF13B /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF4F7E1424F4C33E009EF13B /* ToolbarItemIcon.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		075C15B2254000F50098F1C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		075C15BB2540039E0098F1C2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		BF4F7DEF24F4C33D009EF13B /* GitHubDarkMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubDarkMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4F7DF224F4C33D009EF13B /* GitHubDarkMode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GitHubDarkMode.entitlements; sourceTree = "<group>"; };
 		BF4F7DF424F4C33D009EF13B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,14 +55,10 @@
 		BF4F7E0224F4C33E009EF13B /* GitHubDarkMode Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GitHubDarkMode Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4F7E0724F4C33E009EF13B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		BF4F7E0A24F4C33E009EF13B /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
-		BF4F7E0C24F4C33E009EF13B /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
-		BF4F7E0F24F4C33E009EF13B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		BF4F7E1124F4C33E009EF13B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF4F7E1224F4C33E009EF13B /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
-		BF4F7E1424F4C33E009EF13B /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		BF4F7E1624F4C33E009EF13B /* GitHubDarkMode_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GitHubDarkMode_Extension.entitlements; sourceTree = "<group>"; };
 		BFCCD0FE24F4CDA500826EBB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
-		BFCCD0FF24F4CDA500826EBB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SafariExtensionViewController.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,11 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				BF4F7E0A24F4C33E009EF13B /* SafariExtensionHandler.swift */,
-				BF4F7E0C24F4C33E009EF13B /* SafariExtensionViewController.swift */,
-				BF4F7E0E24F4C33E009EF13B /* SafariExtensionViewController.xib */,
 				BF4F7E1124F4C33E009EF13B /* Info.plist */,
 				BF4F7E1224F4C33E009EF13B /* script.js */,
-				BF4F7E1424F4C33E009EF13B /* ToolbarItemIcon.pdf */,
 				BF4F7E1624F4C33E009EF13B /* GitHubDarkMode_Extension.entitlements */,
 			);
 			path = "GitHubDarkMode Extension";
@@ -184,8 +176,9 @@
 		BF4F7DE724F4C33D009EF13B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Louis Studio";
 				TargetAttributes = {
 					BF4F7DEE24F4C33D009EF13B = {
@@ -197,13 +190,14 @@
 				};
 			};
 			buildConfigurationList = BF4F7DEA24F4C33D009EF13B /* Build configuration list for PBXProject "GitHubDarkMode" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 				"zh-Hans",
+				de,
 			);
 			mainGroup = BF4F7DE624F4C33D009EF13B;
 			productRefGroup = BF4F7DF024F4C33D009EF13B /* Products */;
@@ -231,8 +225,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF4F7E1524F4C33E009EF13B /* ToolbarItemIcon.pdf in Resources */,
-				BF4F7E1024F4C33E009EF13B /* SafariExtensionViewController.xib in Resources */,
 				BF4F7E1324F4C33E009EF13B /* script.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF4F7E0D24F4C33E009EF13B /* SafariExtensionViewController.swift in Sources */,
 				BF4F7E0B24F4C33E009EF13B /* SafariExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,17 +265,10 @@
 			children = (
 				BF4F7DF724F4C33D009EF13B /* Base */,
 				BFCCD0FE24F4CDA500826EBB /* zh-Hans */,
+				075C15B2254000F50098F1C2 /* en */,
+				075C15BB2540039E0098F1C2 /* de */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BF4F7E0E24F4C33E009EF13B /* SafariExtensionViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF4F7E0F24F4C33E009EF13B /* Base */,
-				BFCCD0FF24F4CDA500826EBB /* zh-Hans */,
-			);
-			name = SafariExtensionViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -317,6 +301,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -378,6 +363,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -409,7 +395,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "GitHubDarkMode Extension/GitHubDarkMode_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N5R4643XP6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "GitHubDarkMode Extension/Info.plist";
@@ -418,6 +406,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
+				MARKETING_VERSION = 0.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.louisstudio.GitHubDarkMode-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -429,7 +418,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "GitHubDarkMode Extension/GitHubDarkMode_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N5R4643XP6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "GitHubDarkMode Extension/Info.plist";
@@ -438,6 +429,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
+				MARKETING_VERSION = 0.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.louisstudio.GitHubDarkMode-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -451,8 +443,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GitHubDarkMode/GitHubDarkMode.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N5R4643XP6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = GitHubDarkMode/Info.plist;
@@ -460,6 +454,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 0.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.louisstudio.GitHubDarkMode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -472,8 +467,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GitHubDarkMode/GitHubDarkMode.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N5R4643XP6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = GitHubDarkMode/Info.plist;
@@ -481,6 +478,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 0.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.louisstudio.GitHubDarkMode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
