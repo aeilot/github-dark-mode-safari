@@ -1,0 +1,45 @@
+
+/* Class = "NSMenuItem"; title = "GitHub Dark Mode"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "GitHub Dark Mode";
+
+/* Class = "NSMenuItem"; title = "Quit GitHub Dark Mode"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "GitHub Dark Mode beenden";
+
+/* Class = "NSMenuItem"; title = "About GitHub Dark Mode"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "Über GitHub Dark Mode";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Hauptmenü";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
+"F2S-fz-NVQ.title" = "Hilfe";
+
+/* Class = "NSMenuItem"; title = "GitHub Dark Mode Help"; ObjectID = "FKE-Sm-Kum"; */
+"FKE-Sm-Kum.title" = "GitHub Dark Mode Hilfe";
+
+/* Class = "NSWindow"; title = "GitHub Dark Mode"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "GitHub Dark Mode";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "Alle anzeigen";
+
+/* Class = "NSMenuItem"; title = "Hide GitHub Dark Mode"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "GitHub Dark Mode ausblenden";
+
+/* Class = "NSTextFieldCell"; title = "GitHub Dark Mode"; ObjectID = "S7v-7o-3vW"; */
+"S7v-7o-3vW.title" = "GitHub Dark Mode";
+
+/* Class = "NSButtonCell"; alternateTitle = "Install"; ObjectID = "Srx-0j-A4D"; */
+"Srx-0j-A4D.alternateTitle" = "Installieren";
+
+/* Class = "NSButtonCell"; title = "Open in Safari Extensions Preferences…"; ObjectID = "Srx-0j-A4D"; */
+"Srx-0j-A4D.title" = "In Safari's Erweiterungen Einstellungen öffenen…";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "Andere ausblenden";
+
+/* Class = "NSMenu"; title = "GitHub Dark Mode"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "GitHub Dark Mode";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd"; */
+"wpr-3q-Mcd.title" = "Hilfe";

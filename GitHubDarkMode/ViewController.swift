@@ -8,23 +8,18 @@
 
 import Cocoa
 import SafariServices.SFSafariApplication
+import os
 
-class ViewController: NSViewController {
-
-    @IBOutlet var appNameLabel: NSTextField!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.appNameLabel.stringValue = "GitHub Dark Mode";
-    }
-    
+final class ViewController: NSViewController {
     @IBAction func openSafariExtensionPreferences(_ sender: AnyObject?) {
         SFSafariApplication.showPreferencesForExtension(withIdentifier: "com.louisstudio.GitHubDarkMode-Extension") { error in
-            if let _ = error {
+            if let error = error {
                 // Insert code to inform the user that something went wrong.
-
+                os_log("Failed to show safari preferences: %@", String(describing: error))
+                DispatchQueue.main.async {
+                    self.presentError(error)
+                }
             }
         }
     }
-
 }
