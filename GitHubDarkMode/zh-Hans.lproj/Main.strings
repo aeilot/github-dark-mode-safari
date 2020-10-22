@@ -6,13 +6,13 @@
 "4sb-4s-VLi.title" = "退出 GitHub 黑暗模式";
 
 /* Class = "NSMenuItem"; title = "About GitHubDarkMode"; ObjectID = "5kV-Vb-QxS"; */
-"5kV-Vb-QxS.title" = "About GitHub 黑暗模式";
+"5kV-Vb-QxS.title" = "关于 GitHub 黑暗模式";
 
 /* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
 "F2S-fz-NVQ.title" = "帮助";
 
 /* Class = "NSMenuItem"; title = "GitHubDarkMode Help"; ObjectID = "FKE-Sm-Kum"; */
-"FKE-Sm-Kum.title" = "GitHub 黑暗模式 Help";
+"FKE-Sm-Kum.title" = "GitHub 黑暗模式帮助";
 
 /* Class = "NSWindow"; title = "GitHub Dark Mode"; ObjectID = "IQv-IB-iLA"; */
 "IQv-IB-iLA.title" = "GitHub 黑暗模式";
@@ -21,7 +21,7 @@
 "Kd2-mp-pUS.title" = "全部显示";
 
 /* Class = "NSMenuItem"; title = "Hide GitHubDarkMode"; ObjectID = "Olw-nP-bQN"; */
-"Olw-nP-bQN.title" = "Hide GitHub 黑暗模式";
+"Olw-nP-bQN.title" = "隐藏 GitHub 黑暗模式";
 
 /* Class = "NSButtonCell"; alternateTitle = "Install"; ObjectID = "Srx-0j-A4D"; */
 "Srx-0j-A4D.alternateTitle" = "安装";
