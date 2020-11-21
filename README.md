@@ -18,7 +18,9 @@ The Dark Mode for GitHub.com, now for Safari!
 
 ## Installation
 
-You can get the DMG file from the [release page](https://github.com/aeilot/github-dark-mode-safari/releases). Downloading from Mac APP Store is currently not available.
+You can get the ZIP file from the [release page](https://github.com/aeilot/github-dark-mode-safari/releases). Unarchive and place it in the `/Applications` folder.
+
+> Downloading from Mac APP Store is currently not available.
 
 ## Contributing
 
